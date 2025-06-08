@@ -1,0 +1,6 @@
+include: ../../../../../../../analysis_options.yaml
+linter:
+  rules:
+    # The whole point of this test is to test packages that
+    # don't conform to the repo's standards.
+    - avoid_print
